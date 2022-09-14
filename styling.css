@@ -1,0 +1,168 @@
+/* styling for container */
+/* padding is the space between its content and its border. */
+/* a margin is the space around an element's border */
+/*float property specifies whether an element should float to the left, right, 
+   or not at all.*/
+/* hover used to style elements when the mouse hovers over them */
+
+#container{
+	width:1000px;
+	height:1000px;
+	margin:0 auto;  /* top&bottom is 0 and left&right is automatically set by the browser */
+}
+
+#header{
+	height:120px;
+	padding:10px 0; /* top&bottom is 10px and left&right is 0 */
+}
+
+#brand{
+	float:left;
+}
+
+/* styling for header */
+h1 a{
+	font-size:50px;
+	font-weight:100;
+	color: #861BBF;
+	text-decoration:none; 	
+}
+
+/* removing underline from the link */
+a:link { text-decoration: none; }	
+
+/* styling for search box */
+
+#searchbox{
+	float:right;
+	background:linear-gradient(#E4F2B9,#B7E953);
+	width:450px;
+	height:60px;
+	padding:20px 20px 2px 20px;
+	margin-top:20px;
+}
+
+.text{
+	float:left;
+	width:240px;
+	padding:5px;
+	font-size:20px;
+	background:white url(images/search.png) right center no-repeat;
+}
+
+.submit{
+	float:right;
+	padding:5px;
+	font-weight:bold;
+	color:white;
+	background:violet;
+	font-size:20px;
+	border: 1px solid #DCD5E1;
+}
+
+#menu{
+	height:60px;
+	background:linear-gradient(#F8F594,#D5D533);
+	padding:7px 0;
+}
+
+/* styling for list */
+ul{
+	list-style:none;
+}
+
+#menu ul li{
+	float:left;
+	padding:0 20px;
+	height:20px;
+	border-right:1px solid #5d12e7;
+}
+
+#menu ul li a{
+	font-size:20px;
+	color:#5d12e7;
+	line-height:30px;
+}
+
+#menu ul li a:hover, #menu ul li a.active{
+	font-size:25px;
+	font-weight:bold;
+	color:#800080;
+}
+
+#introduction{
+	background:linear-gradient(#E5F2BB,#B7E952);
+	padding:20px;
+	margin:20px 0;
+}
+
+#introduction h3{
+	font-size:40px;
+	color:green;
+	font-weight:normal;
+}
+
+#introduction p{
+	font-size:25px;
+	color:black;
+	text-align:justify;
+}
+
+.sidebar{
+	height:400px;
+	width:400px;
+	border:1px solid #BAF46F;
+	border-radius:20px;
+	padding:10px 30px;
+}
+
+.sidebar h3{
+	color:#B341DB;
+	font-size:30px;
+}
+
+.sidebar ul{
+    padding-top: 8px;   
+}
+
+.sidebar ul li a{
+	font-size:18px;
+	color:#5d12e7;
+}
+
+#leftsidebar ul li{
+	padding-bottom:4px;
+	padding-left:10px;
+	list-style-image:url(images/arrow.png)
+}
+
+#rightsidebar ul li{
+	padding-bottom:6px;
+	padding-left:70px;
+	padding-top:6px;
+	background:url(images/tick.png) no-repeat left center;
+}
+
+.sidebar ul li a:hover, .sidebar ul li a.active{
+	color:#B341DB;
+	font-size:20px;
+	font-weight:bold;
+}
+
+#leftsidebar{
+	float:left;
+}
+
+#rightsidebar{
+	float:right;
+}
+
+.footer{
+ height: 50px;
+ background: linear-gradient(#F6F390, #D5D533);
+ background: linear-gradient(#F6F390, #D5D533);
+ background: linear-gradient(#F6F390, #D5D533);
+ background: linear-gradient(#F6F390, #D5D533);
+ padding: 10px 30px;
+ margin-top: 15px
+}
