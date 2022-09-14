@@ -1,2 +1,0 @@
-# MyCSS
-CSS Tasks
